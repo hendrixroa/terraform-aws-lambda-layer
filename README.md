@@ -17,8 +17,6 @@ module "layer" {
 
   lambda_layer_name = "LambdaNodejsLayer"
   s3_bucket_id      = aws_s3_bucket.mybucket.id
-  key_s3_bucket     = "_layer.zip"
-  code_location     = "./_layer/"
 }
 ```
 
