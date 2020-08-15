@@ -23,7 +23,7 @@ resource "null_resource" "main" {
     rm -r node_modules
     EOF
 
-    working_dir = var.code_location
+    working_dir = "${path.module}/${var.code_location}"
   }
 }
 
