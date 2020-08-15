@@ -1,0 +1,19 @@
+{
+  "name": "_layer",
+  "version": "1.0.0",
+  "description": "Lambda layer packages to avoid reinstall dependencies in every deployment and save space",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@puresec/function-shield": "^2.0.16",
+    "aws-sdk": "^2.685.0",
+    "axios": "^0.19.2",
+    "elasticsearch": "^16.7.1",
+    "http-aws-es": "^6.0.0",
+    "ioredis": "^4.17.1",
+    "lodash": "^4.17.15",
+    "lz-string": "^1.4.4",
+    "pino": "^6.3.2",
+    "uuid": "^8.1.0"
+  }
+}
