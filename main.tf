@@ -1,7 +1,7 @@
 // Zip file to upload function lambda
 data "archive_file" "main" {
   type        = "zip"
-  source_dir  = var.code_location
+  source_dir  = "${path.module}/${var.code_location}"
   output_path = "${path.module}/.terraform/archive_files/${var.key_s3_bucket}"
 
   depends_on = [null_resource.main]

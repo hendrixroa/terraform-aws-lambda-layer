@@ -1,6 +1,6 @@
 variable "code_location" {
   description = "Folder code"
-  default = "_layer"
+  default = "layer"
 }
 
 variable "s3_bucket_id" {
@@ -9,7 +9,7 @@ variable "s3_bucket_id" {
 
 variable "key_s3_bucket" {
   description = "key value of s3 object"
-  default = "_layer.zip"
+  default = "layer.zip"
 }
 
 variable "lambda_layer_name" {
