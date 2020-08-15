@@ -1,6 +1,6 @@
 variable "code_location" {
   description = "Folder code"
-  default = "./_layer/"
+  default = "_layer"
 }
 
 variable "s3_bucket_id" {
