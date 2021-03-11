@@ -6,16 +6,16 @@
   "license": "MIT",
   "dependencies": {
     "@puresec/function-shield": "^2.0.16",
-    "@slack/web-api": "^5.13.0",
+    "@slack/web-api": "^6.1.0",
     "aws-sdk": "^2.685.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "elasticsearch": "^16.7.1",
     "http-aws-es": "^6.0.0",
     "ioredis": "^4.17.1",
     "lodash": "^4.17.15",
     "lz-string": "^1.4.4",
     "pino": "^6.3.2",
-    "swagger-aws-api-gateway": "^1.0.1",
+    "swagger-aws-api-gateway": "^1.0.2",
     "uuid": "^8.1.0"
   }
 }
