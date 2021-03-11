@@ -547,10 +547,10 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
-swagger-aws-api-gateway@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/swagger-aws-api-gateway/-/swagger-aws-api-gateway-1.0.2.tgz#f61fd455465cb5d910e5ade0884aa25d289ffe2a"
-  integrity sha512-REETzeYVc1Jns2/JkUrk5Ioe8jTPQOuinynAws7Of9am/LKWJLMQkU+M4KIAcwhY71Dgd8f1CiRf2YiC/IDPSg==
+swagger-aws-api-gateway@latest:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/swagger-aws-api-gateway/-/swagger-aws-api-gateway-1.0.3.tgz#136d8567680fa6cc9438542c5963c810c7a2f3c2"
+  integrity sha512-h+VOE5D0u8TH6PNTvgn19N/kA/TZy/bnxot1PlWVUQlgoMKZ2L2kzlx0pdBsbwLvDIQxDlRqCM6irOa0OZ0PfA==
   dependencies:
     "@apidevtools/swagger-parser" "^10.0.2"
 

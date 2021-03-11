@@ -15,7 +15,7 @@
     "lodash": "^4.17.15",
     "lz-string": "^1.4.4",
     "pino": "^6.3.2",
-    "swagger-aws-api-gateway": "^1.0.2",
+    "swagger-aws-api-gateway": "latest",
     "uuid": "^8.1.0"
   }
 }
