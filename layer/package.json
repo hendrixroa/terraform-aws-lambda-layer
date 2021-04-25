@@ -1,6 +1,6 @@
 {
   "name": "_layer",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "Lambda layer packages to avoid reinstall dependencies in every deployment and save space",
   "main": "index.js",
   "license": "MIT",
