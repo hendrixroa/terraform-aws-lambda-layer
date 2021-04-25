@@ -18,7 +18,7 @@ variable "lambda_layer_name" {
 
 variable "lambda_runtime" {
   description = "Lambda runtime of function"
-  default     = "nodejs10.x"
+  default     = "nodejs14.x"
 }
 
 variable "description" {
