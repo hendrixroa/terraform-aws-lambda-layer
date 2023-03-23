@@ -1,12 +1,15 @@
 # Lambda Layer
 
+![layer diagram](./images/lambda-layer.png)
+
 Module prebuilt for automate the installing dependencies for function lambdas made in node.js
+
 
 ## Requirements
 
-- Terraform version:  `0.13.+`
+- Terraform version:  `1+`
 - yarn
-- node.js version: 13+
+- node.js version: 14+
 
 ### How to use
 
@@ -20,4 +23,5 @@ module "layer" {
 }
 ```
 
-- See `_layer/package.json` to see which dependencies I have installed, feel free to add the dependencies that you need via PR. 
+- See `
+- layer/package.json` to see which dependencies I have installed, feel free to add the dependencies that you need via PR. 
